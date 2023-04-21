@@ -3,14 +3,13 @@
 #include <stdio.h>
 
 /**
- * main - Determine the last digit stored in the variable
- * Return: Always 0
+ * main - Prints a text according to number
+ * Return: Always (Success)
  *
  */
 int main(void)
 {
-	int n;
-	int x;
+	int n, x;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
