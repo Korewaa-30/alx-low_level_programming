@@ -4,7 +4,7 @@
 
 /**
  * main - Determine the last digit stored in the variable
- * Return: Always 0
+ * Return: Always (Success)
  *
  */
 
