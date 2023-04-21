@@ -3,11 +3,13 @@
 #include <stdio.h>
 
 /**
- * main - Prints a text according to number
- * Return: Always (Success)
+ * main - Determine the last digit stored in the variable
+ * Return: Always 0
  *
  */
+
 int main(void)
+
 {
 	int n, x;
 
@@ -17,15 +19,15 @@ int main(void)
 
 	if (x > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5/n", n, x);
+	printf("Last digit of %d is %d and is greater than 5/n", n, x);
 	}
 	else if (x == 0)
 	{
-		printf("Last digit of %d and %d is 0\n", n, x);
+	printf("Last digit of %d is %d and is 0\n", n, x);
 	}
-	else
+	else if (x < 6 && x != 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, x);
+	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, x);
 	}
 	return (0);
 }
