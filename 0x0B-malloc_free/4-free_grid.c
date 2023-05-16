@@ -1,20 +1,21 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * free_grid - frees the two dimensional grid
- * @grid: ...
- * @height: ...
+ * @grid: the width of the grid
+ * @height: the height of the grid
  *
- * Return: void
+ * Return: free grid
  */
 
 void free_grid(int **grid, int height)
+{
+	int i;
 
-	int index = 0;
-
-	for (index = 0; index < height; index++)
-		free(grid[index]);
+	for (i = 0; i < height; i++)
+		free(grid[i]);
 
 	free(grid);
 }
