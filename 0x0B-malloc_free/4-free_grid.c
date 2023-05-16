@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -10,7 +11,7 @@
 
 void free_grid(int **grid, int height)
 
-	int index;
+	int index = 0;
 
 	for (index = 0; index < height; index++)
 		free(grid[index]);
