@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
 			continue;
 		}
 		if ((cents - 5) >= 0)
-		{	
+		{
 			cents -= 5;
 			continue;
 		}
